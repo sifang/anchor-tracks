@@ -45,10 +45,11 @@ ANCHOR_WALLET = /Users/sifang/.config/solana/id.json
 Change it to your own name/value!
 
 ### Setup 
-- restart solana
+- restart solana-test-validator
 - npm install
-- anchor rebuild 
-- anchor deploy
+- anchor build && anchor deploy
+- Update new contract values in lib.rs and Anchor.toml
+- anchor build && anchor deploy
 
 ### try it
 [Upload 1234588]
@@ -69,3 +70,4 @@ To retreive track, run: npx ts-node client/client.ts get 8VT4zZymoa2fLrjCX3Rn7iw
 `npx ts-node client/client.ts get 8VT4zZymoa2fLrjCX3Rn7iwcCRnUgUGehzfWcVd3eorg
 Get CID with Hash:  8VT4zZymoa2fLrjCX3Rn7iwcCRnUgUGehzfWcVd3eorg
 Track IPFS: 1234588`
+
